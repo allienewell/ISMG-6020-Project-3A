@@ -1,0 +1,10 @@
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.csprojAssemblyReference.cache
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.Properties.Resources.resources
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.csproj.GenerateResource.cache
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.csproj.CoreCompileInputs.cache
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\bin\Debug\NewellProject3A.exe.config
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\bin\Debug\NewellProject3A.exe
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\bin\Debug\NewellProject3A.pdb
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.exe
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.pdb
+C:\Users\Allie\Documents\ISMG 6020\Project 3\NewellProject3A\NewellProject3A\NewellProject3A\obj\Debug\NewellProject3A.frmYTDCalc.resources
