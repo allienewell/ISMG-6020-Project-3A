@@ -45,6 +45,8 @@
             this.btnCalcYTD = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtDivideByZero = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -188,10 +190,10 @@
             // 
             // btnCalcYTD
             // 
-            this.btnCalcYTD.Location = new System.Drawing.Point(209, 365);
+            this.btnCalcYTD.Location = new System.Drawing.Point(206, 404);
             this.btnCalcYTD.Name = "btnCalcYTD";
             this.btnCalcYTD.Size = new System.Drawing.Size(144, 38);
-            this.btnCalcYTD.TabIndex = 4;
+            this.btnCalcYTD.TabIndex = 5;
             this.btnCalcYTD.Text = "&Calculate";
             this.btnCalcYTD.UseVisualStyleBackColor = true;
             this.btnCalcYTD.Click += new System.EventHandler(this.btnCalcYTD_Click);
@@ -199,10 +201,10 @@
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(508, 365);
+            this.btnExit.Location = new System.Drawing.Point(506, 404);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(136, 38);
-            this.btnExit.TabIndex = 5;
+            this.btnExit.TabIndex = 6;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -218,6 +220,24 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(259, 355);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(121, 18);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Divide by Zero:";
+            // 
+            // txtDivideByZero
+            // 
+            this.txtDivideByZero.Location = new System.Drawing.Point(415, 354);
+            this.txtDivideByZero.Name = "txtDivideByZero";
+            this.txtDivideByZero.Size = new System.Drawing.Size(134, 22);
+            this.txtDivideByZero.TabIndex = 4;
+            // 
             // frmYTDCalc
             // 
             this.AcceptButton = this.btnCalcYTD;
@@ -226,6 +246,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(845, 482);
+            this.Controls.Add(this.txtDivideByZero);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalcYTD);
@@ -269,6 +291,8 @@
         private System.Windows.Forms.Button btnCalcYTD;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtDivideByZero;
     }
 }
 
